@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Abstract design for a creative branding project.",
+      "imageUrl": "https://picsum.photos/seed/1/600/400",
+      "imageHint": "abstract design"
+    },
+    {
+      "id": "project-2",
+      "description": "A modern e-commerce website layout.",
+      "imageUrl": "https://picsum.photos/seed/2/600/400",
+      "imageHint": "website ecommerce"
+    },
+    {
+      "id": "project-3",
+      "description": "Analytics dashboard for an SEO campaign.",
+      "imageUrl": "https://picsum.photos/seed/3/600/400",
+      "imageHint": "dashboard analytics"
+    },
+    {
+      "id": "project-4",
+      "description": "User interface design for a mobile application.",
+      "imageUrl": "https://picsum.photos/seed/4/600/400",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-5",
+      "description": "Architecture diagram for a SaaS platform.",
+      "imageUrl": "https://picsum.photos/seed/5/600/400",
+      "imageHint": "code architecture"
+    },
+    {
+      "id": "project-6",
+      "description": "Social media campaign graphics for digital marketing.",
+      "imageUrl": "https://picsum.photos/seed/6/600/400",
+      "imageHint": "social media"
+    }
+  ]
+}
