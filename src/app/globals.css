@@ -13,7 +13,7 @@
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 94.1%;
 
-    --primary: 193 36% 72%;           /* teal (#9ec6d2) */
+    --primary: 221 64% 33%;           /* 🔹 dark blue (#1e3a8a) */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 15%;
@@ -22,7 +22,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 193 36% 72%;            /* teal */
+    --accent: 221 64% 33%;            /* 🔹 dark blue */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -30,12 +30,12 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 193 36% 72%;              /* teal */
+    --ring: 221 64% 33%;              /* 🔹 dark blue */
 
     --radius: 0.5rem;
   }
 
-  /* 👇 dark mode is now SAME teal */
+  /* dark mode with same dark blue */
   .dark {
     --background: 0 0% 7%;
     --foreground: 0 0% 94.1%;
@@ -46,7 +46,7 @@
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 94.1%;
 
-    --primary: 193 36% 72%;           /* teal */
+    --primary: 221 64% 33%;           /* 🔹 dark blue */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 15%;
@@ -55,7 +55,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 193 36% 72%;            /* teal */
+    --accent: 221 64% 33%;            /* 🔹 dark blue */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -63,7 +63,7 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 193 36% 72%;              /* teal */
+    --ring: 221 64% 33%;              /* 🔹 dark blue */
   }
 }
 
