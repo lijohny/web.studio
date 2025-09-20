@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
+import Image from "next/image";
 const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
@@ -33,8 +33,15 @@ export default function Header() {
     )}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#home" className="text-2xl font-bold font-headline text-primary glitch-text" data-text="W. Studio">
-            W. Studio
+          <a href="#home" className="flex items-center space-x-2">
+                    <Image
+                      src="/black new logo webstdsio.png"
+                      alt="W. Studio Logo"
+                      width={120}
+                      height={120}
+                      priority
+                      className="h-auto w-auto mt-2"
+                    />
           </a>
           
           <nav className="hidden md:flex items-center space-x-8">

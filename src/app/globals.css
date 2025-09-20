@@ -13,7 +13,7 @@
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 94.1%;
 
-    --primary: 3 100% 61%;
+    --primary: 193 36% 72%;           /* teal (#9ec6d2) */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 15%;
@@ -22,7 +22,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 3 100% 61%;
+    --accent: 193 36% 72%;            /* teal */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -30,11 +30,12 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 3 100% 61%;
-    
+    --ring: 193 36% 72%;              /* teal */
+
     --radius: 0.5rem;
   }
 
+  /* 👇 dark mode is now SAME teal */
   .dark {
     --background: 0 0% 7%;
     --foreground: 0 0% 94.1%;
@@ -45,7 +46,7 @@
     --popover: 0 0% 7%;
     --popover-foreground: 0 0% 94.1%;
 
-    --primary: 3 100% 61%;
+    --primary: 193 36% 72%;           /* teal */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 15%;
@@ -54,7 +55,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 3 100% 61%;
+    --accent: 193 36% 72%;            /* teal */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -62,7 +63,7 @@
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 3 100% 61%;
+    --ring: 193 36% 72%;              /* teal */
   }
 }
 
@@ -80,14 +81,25 @@
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 8px hsl(var(--primary)), 0 0 20px hsl(var(--primary) / 0.7);
+    text-shadow:
+      0 0 6px hsl(var(--primary)),
+      0 0 12px hsl(var(--primary) / 0.8),
+      0 0 24px hsl(var(--primary) / 0.6);
   }
+
   .button-glow {
-    box-shadow: 0 0 5px hsl(var(--primary) / 0.8), 0 0 10px hsl(var(--primary) / 0.6), 0 0 15px hsl(var(--primary) / 0.4);
+    box-shadow:
+      0 0 8px hsl(var(--primary) / 0.9),
+      0 0 16px hsl(var(--primary) / 0.6),
+      0 0 32px hsl(var(--primary) / 0.4);
     transition: all 0.3s ease-in-out;
   }
+
   .button-glow:hover {
-    box-shadow: 0 0 10px hsl(var(--primary)), 0 0 20px hsl(var(--primary) / 0.8), 0 0 30px hsl(var(--primary) / 0.6);
+    box-shadow:
+      0 0 12px hsl(var(--primary)),
+      0 0 24px hsl(var(--primary) / 0.8),
+      0 0 40px hsl(var(--primary) / 0.6);
   }
 
   .glitch-text {
