@@ -14,7 +14,7 @@ export default function Hero() {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-10"
+        className="absolute inset-0 w-full h-full object-cover opacity-60"
       >
         <source src="/hero-bg.webm" type="video/webm" />
         Your browser does not support the video tag.
